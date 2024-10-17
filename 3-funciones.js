@@ -4,8 +4,8 @@
 // 1.1 Escribe una función llamada `despedir` que imprima "Adiós" en la consola.
     // Tu código aquí
     function despedir() {
-        console.log("¡Adios!");
-    } despedir();
+        return "¡Adios!";
+    } console.log(despedir());
 
 // 1.2 Crea una función llamada `multiplicarPorDos` que tome un número como parámetro y devuelva el doble de ese número.
     // Tu código aquí
@@ -36,11 +36,11 @@
 
 // 2.2 Escribe una función llamada `saludarPersonalizado` que reciba dos parámetros: `nombre` y `apellido`. La función debe devolver "Hola, [nombre] [apellido]".
     // Tu código aquí
-    function saludoPersonalizado(name, lastName) {
-        const completeNameAndLastName = name + " " + lastName;
-        console.log("¡Hola " + completeNameAndLastName + "!");
+    function saludoPersonalizado(nombre, apellido) {
+        const completeNameAndLastName = nombre + " " + apellido;
+        return "¡Hola " + completeNameAndLastName + "!";
     }
-    saludoPersonalizado("Eduardo", "Jara");
+    console.log(saludoPersonalizado("Eduardo", "Jara"));
 
 // 2.3 Crea una función llamada `calcularPotencia` que reciba dos parámetros: base y exponente. La función debe devolver el resultado de elevar la base al exponente.
     // Tu código aquí
