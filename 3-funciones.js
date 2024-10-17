@@ -37,8 +37,7 @@
 // 2.2 Escribe una función llamada `saludarPersonalizado` que reciba dos parámetros: `nombre` y `apellido`. La función debe devolver "Hola, [nombre] [apellido]".
     // Tu código aquí
     function saludoPersonalizado(nombre, apellido) {
-        const completeNameAndLastName = nombre + " " + apellido;
-        return "¡Hola " + completeNameAndLastName + "!";
+        return `¡Hola ${nombre} ${apellido}!`;
     }
     console.log(saludoPersonalizado("Eduardo", "Jara"));
 
@@ -164,7 +163,7 @@ function potencia(base, exponente) {
 console.log("El resultado de la recursion de la potencia, es:", potencia(2, 9));
 
 // Exportar las funciones para que puedan ser probadas
-module.exports = {
+/*module.exports = {
     despedir,
     multiplicarPorDos,
     esMayorDeEdad,
@@ -183,4 +182,4 @@ module.exports = {
     potencia,
     saludarFlecha,
     multiplicarFlecha,
-};
+};*/
