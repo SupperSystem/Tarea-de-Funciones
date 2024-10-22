@@ -36,10 +36,10 @@
 
 // 2.2 Escribe una función llamada `saludarPersonalizado` que reciba dos parámetros: `nombre` y `apellido`. La función debe devolver "Hola, [nombre] [apellido]".
     // Tu código aquí
-    function saludoPersonalizado(name, lastname) {
-        return `¡Hola ${name} ${lastname}!`;
+    function saludarPersonalizado(name, lastName) {
+        console.log(`¡Hola ${name} ${lastName}!`);
     }
-    console.log(saludoPersonalizado("Eduardo", "Jara"));
+    saludarPersonalizado("Eduardo", "Jara");
 
 // 2.3 Crea una función llamada `calcularPotencia` que reciba dos parámetros: base y exponente. La función debe devolver el resultado de elevar la base al exponente.
     // Tu código aquí
